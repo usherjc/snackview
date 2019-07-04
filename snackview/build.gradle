@@ -25,6 +25,6 @@ android {
 
 dependencies {
     implementation rootProject.ext.lib.androidSupportV7
-    implementation rootProject.ext.lib.androidSupportV7
-    implementation rootProject.ext.lib.androidSupportV7
+    implementation rootProject.ext.lib.androidDesign
+    implementation rootProject.ext.lib.fresco
 }
