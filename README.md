@@ -14,7 +14,7 @@ allprojects {
 ``````
 
 dependencies {
-	        implementation 'com.github.usherjc:snackview:1.0.0'
+	        implementation 'com.github.usherjc:snackview:1.0.1'
 	}
 
 ``````
