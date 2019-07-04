@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_content"
+    android:layout_width="@dimen/x100"
+    android:layout_height="@dimen/x100"
+    android:background="@drawable/shape_bg_voice">
+
+    <com.usher.snack.view.UsherDDSSoundView
+        android:id="@+id/ushersv_main"
+        style="@style/BaseMatchParentStyle"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/shape_dds_speech_default" />
+
+    <ImageView
+        android:id="@+id/iv_main_speak"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/shape_dds_speech_default" />
+
+    <FrameLayout
+        android:id="@+id/fl_loading"
+        style="@style/BaseMatchParentStyle"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_main_load_a"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/shape_dds_speech_load" />
+
+        <ImageView
+            android:id="@+id/iv_main_load_b"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/shape_dds_speech_load" />
+
+    </FrameLayout>
+
+</FrameLayout>

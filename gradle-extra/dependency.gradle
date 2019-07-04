@@ -1,0 +1,22 @@
+ext {
+
+    path = [
+            buildGradle: 'com.android.tools.build:gradle:3.1.2',
+            repoJitpack: 'https://jitpack.io'
+    ]
+
+    android = [
+            compileSdkVersion: 28,
+            minSdkVersion    : 20,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : '1.0.0'
+    ]
+
+    lib = [
+            androidSupportV7: 'com.android.support:appcompat-v7:28.0.0',
+            androidDesign   : 'com.android.support:design:28.0.0',
+            fresco          : 'com.facebook.fresco:fresco:1.13.0'
+    ]
+
+}

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_none">--</string>
+    <string name="app_music">music</string>
+    <string name="app_music_time_null">--:--</string>
+
+</resources>
